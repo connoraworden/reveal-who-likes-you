@@ -1,0 +1,22 @@
+{
+  "name": "Reveal who likes you",
+  "version": "1.0",
+  "description": "Remove the blury tease. Inspired by u/PixelSteel https://www.reddit.com/r/Tinder/comments/dji6ke/so_i_found_something_out/",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "single-man-reveal-yourself.js"
+      ]
+    }
+  ],
+  "icons": {
+    "16": "images/no-likey-no-lighty.png",
+    "32": "images/no-likey-no-lighty.png",
+    "48": "images/no-likey-no-lighty.png",
+    "128": "images/no-likey-no-lighty.png"
+  }
+}
